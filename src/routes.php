@@ -1,11 +1,11 @@
 <?php
 use Illuminate\Support\Facades\Route;
 
-Route::get('greeting', function () {
-    return 'Hi, this is your awesome package! rwra';
-});
+// Route::get('greeting', function () {
+//     return 'Hi, this is your awesome package! rwra';
+// });
 
-Route::get('Laws/test', 'EdgeWizz\Laws\Controllers\LawsController@test')->name('test');
+// Route::get('Laws/test', 'EdgeWizz\Laws\Controllers\LawsController@test')->name('test');
 
 Route::post('fmt/Laws/store', 'EdgeWizz\Laws\Controllers\LawsController@store')->name('fmt.laws.store');
 
